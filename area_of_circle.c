@@ -5,15 +5,13 @@
  * */
 
 #include<stdio.h>
-
+#define PI (22/7)
 int main(){
-
-	float pi=3.14;
 	float r;
 	float area;
 	printf("Enter the radius");
 	scanf("%f",&r);
-	area=pi*r*r;
+	area=PI*r*r;
 	printf("The area is %f ",area);
 	return 0;
 
